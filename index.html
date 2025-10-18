@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abdullah Mahmood | Portfolio</title>
+  <style>
+    /* Reset & Base */
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
+    body { line-height: 1.6; background: #f5f5f5; color: #333; }
+    a { color: #0073e6; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    h1, h2, h3 { margin-bottom: 0.5em; }
+    section { padding: 50px 20px; max-width: 1000px; margin: auto; }
+
+    /* Header */
+    header { background: #fff; padding: 20px 0; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+    header h1 { text-align: center; margin-bottom: 10px; }
+    header .links { text-align: center; margin-bottom: 0; }
+    header .links a { margin: 0 15px; }
+
+    /* Sections */
+    section { background: #fff; margin: 20px 0; border-radius: 10px; padding: 30px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+
+    /* Projects Flex Grid */
+    .projects { display: flex; flex-wrap: wrap; gap: 20px; }
+    .project { flex: 1; min-width: 250px; background: #e9f0ff; padding: 20px; border-radius: 8px; }
+
+    /* Lists */
+    ul { margin-top: 10px; margin-bottom: 10px; }
+    li { margin-bottom: 5px; }
+
+    /* Footer */
+    footer { text-align: center; padding: 20px; font-size: 0.9em; color: #555; }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Abdullah Mahmood</h1>
+    <p class="links">
+      <a href="https://github.com/abdu77ah1" target="_blank">GitHub</a> | 
+      <a href="https://linkedin.com/in/abdu774h" target="_blank">LinkedIn</a> | 
+      abdu77ah.m@gmail.com | +33 753604450
+    </p>
+  </header>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I'm an AI Researcher and Software Developer with over 2 years of experience in Machine Learning, Deep Learning, Web Development, and Data Analytics. 
+      I recently completed the Erasmus Mundus Joint Master's in Photonics for Security, Reliability, and Safety (PSRS), funded by the European Union. 
+      I’ve worked at EmulationAI, INSERM, and LiSSi, and actively contributed to Google Developer Student Clubs (GDSC). 
+      I’m passionate about building intelligent, scalable systems and am currently seeking opportunities as an AI Researcher or Python Developer.
+    </p>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education">
+    <h2>Education</h2>
+    <h3>Erasmus Mundus Joint Masters in Photonics for Security Reliability and Safety (PSRS)</h3>
+    <p>2023 - 2025</p>
+    <ul>
+      <li>Université Jean Monnet, France - Optical Engineering, Guided Optics, Digital Image Processing</li>
+      <li>University of Eastern Finland - Machine Vision, Display Technologies, Material Physics</li>
+      <li>Université Paris-Est Créteil - Biometrics, Computer Vision and Machine Learning, Research and Professional Culture</li>
+    </ul>
+    <p>German Grade: 2.0</p>
+    
+    <h3>BS Computer Science, FUUAST</h3>
+    <p>2019 - 2023 | German Grade: 1.7</p>
+    <ul>
+      <li>Erasmus Mundus Scholarship</li>
+      <li>BioSMART 2025 Best Master Student Paper Award</li>
+      <li>FUUAST Academic Awards</li>
+    </ul>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience">
+    <h2>Experience</h2>
+
+    <h3>Research Engineer | IMRB - U955 INSERM – UPEC, Paris, France</h3>
+    <p>Oct 2025 – Current</p>
+    <ul>
+      <li>Continuing Master thesis research on infected cell datasets</li>
+      <li>Exploring deep learning methods for robust cell tracking and migration analysis</li>
+    </ul>
+
+    <h3>Master Thesis Researcher | IMRB - U955 INSERM – UPEC, Paris, France</h3>
+    <p>Mar 2025 – Aug 2025</p>
+    <ul>
+      <li>Developed preprocessing pipeline for microscopy videos</li>
+      <li>Published at BioSMART 2025; awarded Best Master Student Paper</li>
+      <li>Implemented classical and deep learning-based tracking algorithms (97% accuracy)</li>
+    </ul>
+
+    <h3>Computational Imaging Research Intern | University of Eastern Finland</h3>
+    <p>Jun 2024 – Aug 2024</p>
+    <ul>
+      <li>Developed image fusion algorithms for SWIR and VISNIR hyperspectral images</li>
+      <li>Evaluated image quality using SAM, SSIM, PSNR, SWPC, and RMSE</li>
+      <li>Presented work at OPD 2025 international photonics conference</li>
+    </ul>
+
+    <h3>Junior Python Developer | Emulation AI, Australia</h3>
+    <p>Aug 2022 – Jan 2023</p>
+    <ul>
+      <li>Designed AI applications, trained NLP models, integrated multiple ML/DL models</li>
+    </ul>
+
+    <h3>Artificial Intelligence Lead | Google Developers Student Club</h3>
+    <p>Oct 2022 – Oct 2023</p>
+    <ul>
+      <li>Organized workshops, mentored students, built a learning community</li>
+    </ul>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="project">
+        <h3>Embedded Object Detection with MobileNetV2 SSD</h3>
+        <ul>
+          <li>Deployed object detection on Raspberry Pi 4 with Pi Camera</li>
+          <li>68% mAP on validation, ~3 FPS inference</li>
+          <li>Bounding box visualization with Python app</li>
+        </ul>
+      </div>
+      <div class="project">
+        <h3>Medical & General Image Analysis Using MiniCPM-V-2.6</h3>
+        <ul>
+          <li>Handled both standard and medical images for extracting insights</li>
+          <li>Demonstrated adaptability across diverse datasets</li>
+        </ul>
+      </div>
+      <div class="project">
+        <h3>Melanoma Skin Cancer Classification</h3>
+        <ul>
+          <li>Developed CNN on 10,000 images</li>
+          <li>Achieved 89.6% test accuracy using TensorFlow/Keras</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <p>
+      Python, C++, MATLAB, PyTorch, TensorFlow, Deep Learning, Computer Vision, Embedded Vision, Image Processing, Sensor Data Analysis, Perception Algorithm Development, Model Optimization, Data Augmentation, OpenCV, Algorithm Implementation, Git, GitHub, Scientific Writing, Research Presentation
+    </p>
+  </section>
+
+  <!-- Contact / References Section -->
+  <section id="contact">
+    <h2>References</h2>
+    <ul>
+      <li>Prof. Amine NAIT-ALI | naitali@u-pec.fr</li>
+      <li>Prof. Matthieu Roussey | matthieu.roussey@uef.fi</li>
+      <li>Prof. Ana Gebejes | ana.gebejes@uef.fi</li>
+    </ul>
+  </section>
+
+  <footer>
+    &copy; 2025 Abdullah Mahmood | Portfolio built with HTML, CSS & JS
+  </footer>
+
+  <script>
+    // Optional: Smooth scrolling for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({ behavior: 'smooth' });
+      });
+    });
+  </script>
+
+</body>
+</html>

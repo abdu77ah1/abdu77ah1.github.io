@@ -24,19 +24,15 @@ Let’s connect if you're working on something exciting in AI, computer vision, 
 **2023 - 2025**  
 
 - **1st Semester:** Université Jean Monnet, Saint-Étienne, France  
-  Important Courses: Optical Engineering, Guided Optics, Digital Image Processing and Analysis  
 - **2nd Semester:** University of Eastern Finland, Joensuu, Finland  
-  Important Courses: Machine Vision, Display Technologies, Material Physics  
 - **3rd Semester:** Université Paris-Est Créteil, Paris, France  
-  Important Courses: Biometrics, Computer Vision and Machine Learning, Research and Professional Culture  
-
 **German Grade:** 2.0  
 
 **BS Computer Science**, FUUAST, 2019 - 2023  
 **German Grade:** 1.7  
 
 **Awards**  
-- Erasmus Mundus Joint Master Degree Scholarship  
+- European Union | Erasmus Mundus Joint Master Degree Scholarship  
 - BioSMART 2025 | Best Master Student Paper Award  
 - FUUAST | Autumn 2020, Spring 2021, Spring 2022  
 

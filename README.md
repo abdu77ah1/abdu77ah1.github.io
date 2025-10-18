@@ -42,26 +42,6 @@ Let’s connect if you're working on something exciting in AI, computer vision, 
 
 ---
 
-## Language Skills
-
-- English: C1  
-- German: A1  
-
----
-
-## Courses & Certifications
-
-- Robotics: Aerial Robotics | University of Pennsylvania  
-- Computer Vision with Embedded Machine Learning | Coursera  
-
----
-
-## Skills
-
-Python, C++, MATLAB, PyTorch, TensorFlow, Deep Learning, Computer Vision for Robotics, Embedded Vision, Image Processing, Sensor Data Analysis, Perception Algorithm Development, Model Optimization, Data Augmentation, OpenCV, Algorithm Implementation, Git, GitHub, Scientific Writing, Research Presentation  
-
----
-
 ## Experience
 
 **Research Engineer** | IMRB - U955 INSERM – UPEC, Paris, France  
@@ -94,18 +74,34 @@ Python, C++, MATLAB, PyTorch, TensorFlow, Deep Learning, Computer Vision for Rob
 
 ## Projects
 
+<div style="display: flex; gap: 20px; flex-wrap: wrap;">
+
+<div style="flex: 1; min-width: 250px;">
+
 **Embedded Object Detection with MobileNetV2 SSD**  
 - Deployed object detection on Raspberry Pi 4 with Pi Camera.  
 - Achieved 68% mAP on validation and ~3 FPS inference.  
 - Developed bounding box visualization and Python app for live video.  
 
+</div>
+
+<div style="flex: 1; min-width: 250px;">
+
 **Medical and General Image Analysis Using MiniCPM-V-2.6**  
 - Handled both standard and medical images for extracting key insights.  
 - Demonstrated model adaptability across diverse images and document types.  
 
+</div>
+
+<div style="flex: 1; min-width: 250px;">
+
 **Melanoma Skin Cancer Classification Project**  
 - Developed CNN to classify melanoma from 10,000 images.  
 - Achieved 89.6% test accuracy using TensorFlow, Keras, NumPy, Matplotlib.  
+
+</div>
+
+</div>
 
 ---
 
